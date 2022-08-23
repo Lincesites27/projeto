@@ -4,6 +4,7 @@ import Home from './components/Pages/Home';
 import Company from './components/Pages/Company';
 import Contact from './components/Pages/Contact';
 import NewProject from './components/Pages/NewProject';
+import Container from './components/layout/Container';
 
 function App() {
   return (
@@ -17,15 +18,15 @@ function App() {
     <Link to="/newproject">Novo Projeto</Link>
     </div>
     
-
+    <Container>
     <Routes>
-
-    <Route exact path='/' element={<Home />}/>
-    <Route exact path='/company' element={<Company />}/>
-    <Route exact path='/contact' element={<Contact />}/>
-    <Route exact path='/newproject' element={<NewProject />}/>
-
+      <Route exact path='/' element={<Home />}/>
+      <Route exact path='/company' element={<Company />}/>
+      <Route exact path='/contact' element={<Contact />}/>
+      <Route exact path='/newproject' element={<NewProject />}/>
     </Routes>
+    </Container>
+    
    </Router>
 
 
