@@ -5,18 +5,17 @@ import Company from './components/Pages/Company';
 import Contact from './components/Pages/Contact';
 import NewProject from './components/Pages/NewProject';
 import Container from './components/layout/Container';
+import Navbar from './components/layout/Navbar'
+import Footer from './components/layout/Footer'
+
+
+
 
 function App() {
   return (
     
    <Router>
-
-    <div>
-    <Link to="/">Home</Link>
-    <Link to="/contact">Contato</Link>
-    <Link to="/company">Empresa</Link>
-    <Link to="/newproject">Novo Projeto</Link>
-    </div>
+     <Navbar />    
     
     <Container>
     <Routes>
@@ -27,7 +26,11 @@ function App() {
     </Routes>
     </Container>
     
+    <footer className='min-height'>
+    <Footer />
+    </footer>
    </Router>
+  
 
 
   );

@@ -1,0 +1,22 @@
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 12px 24px;
+    align-items: center;
+}
+
+.min-height{
+    height: 75vh;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
