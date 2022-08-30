@@ -1,8 +1,10 @@
-
-
+import styles from './Footer.module.css'
 const Footer = () => {
   return (
-    <div><p>FOOTER</p></div>
+    <div className={styles.rodape}>
+      <h2>Aqui é o Rodapé</h2>
+      
+    </div>
   )
 }
 
