@@ -1,5 +1,15 @@
-function NewProject () {
+import ProjectForm from '../projects/ProjectForm'
+import styles from './NewProject.module.css'
 
-    return <h1>Novo Projeto</h1>
+const NewProject = () => {
+  return (
+    <div className={styles.newproject_container}>
+        <h1>Criar projeto</h1>
+        <p>Crie seu projeto para depois adicionar os serviços</p>
+        <ProjectForm btnText="Criar projeto"/>
+
+    </div>
+  )
 }
+
 export default NewProject

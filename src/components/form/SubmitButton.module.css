@@ -1,18 +1,12 @@
 .btn{
-   margin: 20px 0;
-}
-
-.btn a{
     background-color: #222;
     color: #fff;
-    padding: 0.5em 1em;
+    padding: 0.7em 1.2em;
     text-decoration: none;
     transition: 0.5s;
-    font-size: 1.2em;
-    
+    cursor: pointer;
+    border: none;
 }
-
-.btn a:hover{
+.btn:hover{
     color: #ffbb33;
-
 }
