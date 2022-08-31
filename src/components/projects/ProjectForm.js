@@ -13,6 +13,7 @@ const ProjectForm = ({btnText}) => {
         placeholder="Insira o nome do projeto" 
         />
          <Input 
+         
         type="number" 
         text="Orçamento do projeto" 
         name="budget" 
